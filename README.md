@@ -54,7 +54,7 @@ dsh plugin --profile web add /path/to/dsh-resolve
 
 也可以在 DSH 里让 agent 调 `plugin_manager` + `install_bundle`，`target` 指向本目录。
 
-也可以完全不用 DSH：`src/build.mjs` 是纯 Node 模块，
+也可以完全不用 DSH：`src/build.mjs` 不依赖 DSH 的运行时，是普通 Node 模块，
 `node -e "import('./src/build.mjs').then(m => m.buildEdit(spec, { outputDir }))"` 就能生成 `.fcpxml`。
 
 ### 依赖
