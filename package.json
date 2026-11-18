@@ -1,0 +1,52 @@
+{
+  "name": "dsh-resolve",
+  "version": "0.2.0",
+  "description": "Direct authoring for DaVinci Resolve: turn a declarative edit spec into a finished, importable FCPXML timeline, and drive Resolve's scripting API when Studio is available.",
+  "type": "module",
+  "license": "MIT",
+  "author": "dsh-resolve contributors",
+  "homepage": "https://github.com/Lee2277-t/dsh-resolve#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lee2277-t/dsh-resolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lee2277-t/dsh-resolve/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./core": "./src/build.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "bridge",
+    "locale",
+    "test",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/self-test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "davinci-resolve",
+    "fcpxml",
+    "video-editing",
+    "dsh-plugin",
+    "deepseek-harness"
+  ]
+}

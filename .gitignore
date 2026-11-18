@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local scratch: real Resolve sessions, screenshots, generated timelines
+probe/
+resolve-edits/
+resolve-frames/
+resolve-renders/
+out/

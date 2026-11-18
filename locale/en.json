@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DaVinci direct edit",
+    "description": "Turn a declarative spec into a finished, Resolve-importable timeline: clips, title overlays and dissolves in one call; drives a live Resolve project when Studio scripting is available."
+  }
+}

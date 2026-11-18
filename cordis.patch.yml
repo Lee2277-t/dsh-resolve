@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-resolve
+      name: dsh-resolve
+      config: {}
