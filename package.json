@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Direct authoring for DaVinci Resolve: turn a declarative edit spec into a finished, importable FCPXML timeline, and drive Resolve's scripting API when Studio is available.",
   "type": "module",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "author": "dsh-resolve contributors",
   "homepage": "https://github.com/Lee2277-t/dsh-resolve#readme",
   "repository": {

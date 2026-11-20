@@ -2,7 +2,7 @@
 
 让 agent 用**一份声明式 spec** 直接把片子做出来，而不是在 DaVinci Resolve 界面里一点点点。
 
-[English](#english) · [DSH 插件](https://github.com/deepseek-ai/deepseek-harness) · MIT
+[English](#english) · [DSH 插件](https://github.com/deepseek-ai/deepseek-harness) · AGPL-3.0
 
 ## 为什么需要它
 
@@ -175,4 +175,4 @@ dsh plugin add /path/to/dsh-resolve
 
 **Privacy:** no telemetry, no network calls, no credentials. It writes only to the output directory, `%LOCALAPPDATA%\dsh-resolve\` (the free-edition queue) and, for the in-app bridge, Resolve's own Scripts folder (disable with `installBridgeScript: false`).
 
-MIT licensed.
+AGPL-3.0-only licensed.
